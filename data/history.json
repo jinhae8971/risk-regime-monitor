@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-04-20T23:57:05.425400",
+    "timestamp": "2026-04-21T00:00:34.895189",
     "date": "2026-04-21",
     "composite_score": 58.33,
     "regime": "NEUTRAL_ON",
@@ -14,7 +14,7 @@
         "zscore_252d": 0.03966480937345647,
         "regime": "NEUTRAL",
         "source": "Yahoo(^VIX)",
-        "timestamp": "2026-04-20T23:57:00.388884"
+        "timestamp": "2026-04-21T00:00:29.890122"
       },
       {
         "code": "MOVE",
@@ -24,17 +24,17 @@
         "zscore_252d": -0.8461263988149431,
         "regime": "RISK_ON",
         "source": "Yahoo(^MOVE)",
-        "timestamp": "2026-04-20T23:57:00.388884"
+        "timestamp": "2026-04-21T00:00:29.890122"
       },
       {
         "code": "DXY",
         "name": "US Dollar Index",
         "value": 98.07,
         "prev": 98.1,
-        "zscore_252d": -0.5724600912534531,
+        "zscore_252d": -0.5694606833353577,
         "regime": "NEUTRAL",
         "source": "Yahoo(DX-Y.NYB)",
-        "timestamp": "2026-04-20T23:57:00.388884"
+        "timestamp": "2026-04-21T00:00:29.890122"
       },
       {
         "code": "HY_OAS",
@@ -44,7 +44,7 @@
         "zscore_252d": 0.23118826318451657,
         "regime": "NEUTRAL",
         "source": "Yahoo(HYG,LQD)",
-        "timestamp": "2026-04-20T23:57:00.388884"
+        "timestamp": "2026-04-21T00:00:29.890122"
       },
       {
         "code": "CURVE_2s10s",
@@ -54,7 +54,7 @@
         "zscore_252d": 0.1613815373837234,
         "regime": "NEUTRAL",
         "source": "Yahoo(^TNX)",
-        "timestamp": "2026-04-20T23:57:00.388884"
+        "timestamp": "2026-04-21T00:00:29.890122"
       },
       {
         "code": "BTC_DOMINANCE",
@@ -64,37 +64,37 @@
         "zscore_252d": null,
         "regime": "NEUTRAL",
         "source": "CoinGecko(/global)",
-        "timestamp": "2026-04-20T23:57:01.422118"
+        "timestamp": "2026-04-21T00:00:30.825415"
       },
       {
         "code": "CRYPTO_FNG",
         "name": "Crypto Fear & Greed Index",
-        "value": 29,
-        "prev": 27,
+        "value": 33,
+        "prev": 29,
         "zscore_252d": null,
         "regime": "NEUTRAL",
         "source": "alternative.me",
-        "timestamp": "2026-04-20T23:57:01.422118"
+        "timestamp": "2026-04-21T00:00:30.825415"
       },
       {
         "code": "STABLECOIN_MCAP",
         "name": "Stablecoin Total MCap ($B)",
-        "value": 308.28,
+        "value": 308.47,
         "prev": null,
         "zscore_252d": null,
         "regime": "NEUTRAL",
         "source": "CoinGecko(stablecoins)",
-        "timestamp": "2026-04-20T23:57:01.422118"
+        "timestamp": "2026-04-21T00:00:30.825415"
       },
       {
         "code": "USDKRW",
         "name": "USD/KRW Exchange Rate",
-        "value": 1465.15,
-        "prev": 1477.92,
-        "zscore_252d": 0.9225400258838272,
+        "value": 1471.88,
+        "prev": 1465.15,
+        "zscore_252d": 1.0715901650047321,
         "regime": "NEUTRAL",
         "source": "Yahoo(KRW=X)",
-        "timestamp": "2026-04-20T23:57:02.156692"
+        "timestamp": "2026-04-21T00:00:31.555027"
       },
       {
         "code": "KOSPI_MOMENTUM",
@@ -104,7 +104,7 @@
         "zscore_252d": 2.140450017650338,
         "regime": "RISK_ON",
         "source": "Yahoo(^KS11)",
-        "timestamp": "2026-04-20T23:57:02.156692"
+        "timestamp": "2026-04-21T00:00:31.555027"
       },
       {
         "code": "KOSPI_RV20",
@@ -114,7 +114,7 @@
         "zscore_252d": null,
         "regime": "RISK_OFF",
         "source": "Calculated(^KS11)",
-        "timestamp": "2026-04-20T23:57:02.156692"
+        "timestamp": "2026-04-21T00:00:31.555027"
       }
     ]
   }
