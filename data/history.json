@@ -1892,5 +1892,124 @@
         "timestamp": "2026-05-11T22:44:59.501959"
       }
     ]
+  },
+  {
+    "timestamp": "2026-05-12T22:52:20.214360",
+    "date": "2026-05-13",
+    "composite_score": 53.79,
+    "regime": "NEUTRAL_OFF",
+    "coverage": 0.943,
+    "indicators": [
+      {
+        "code": "VIX",
+        "name": "CBOE Volatility Index",
+        "value": 17.99,
+        "prev": 18.38,
+        "zscore_252d": -0.07329628147163524,
+        "regime": "NEUTRAL",
+        "source": "Yahoo(^VIX)",
+        "timestamp": "2026-05-12T22:52:14.609636"
+      },
+      {
+        "code": "MOVE",
+        "name": "ICE BofA MOVE Index",
+        "value": 71.68,
+        "prev": 70.74,
+        "zscore_252d": -0.49973640593658847,
+        "regime": "RISK_ON",
+        "source": "Yahoo(^MOVE)",
+        "timestamp": "2026-05-12T22:52:14.609636"
+      },
+      {
+        "code": "DXY",
+        "name": "US Dollar Index",
+        "value": 98.29,
+        "prev": 97.94,
+        "zscore_252d": -0.2830489869165861,
+        "regime": "NEUTRAL",
+        "source": "Yahoo(DX-Y.NYB)",
+        "timestamp": "2026-05-12T22:52:14.609636"
+      },
+      {
+        "code": "HY_OAS",
+        "name": "HYG/LQD Ratio (Credit Risk Proxy)",
+        "value": 0.7357,
+        "prev": 0.7342,
+        "zscore_252d": 0.7570316028654658,
+        "regime": "NEUTRAL",
+        "source": "Yahoo(HYG,LQD)",
+        "timestamp": "2026-05-12T22:52:14.609636"
+      },
+      {
+        "code": "CURVE_2s10s",
+        "name": "US 10Y Treasury Yield (%)",
+        "value": 4.463,
+        "prev": 4.41,
+        "zscore_252d": 1.6161747306084548,
+        "regime": "RISK_OFF",
+        "source": "Yahoo(^TNX)",
+        "timestamp": "2026-05-12T22:52:14.609636"
+      },
+      {
+        "code": "BTC_DOMINANCE",
+        "name": "Bitcoin Dominance (%)",
+        "value": 58.28,
+        "prev": null,
+        "zscore_252d": null,
+        "regime": "NEUTRAL",
+        "source": "CoinGecko(/global)",
+        "timestamp": "2026-05-12T22:52:15.641055"
+      },
+      {
+        "code": "CRYPTO_FNG",
+        "name": "Crypto Fear & Greed Index",
+        "value": 49,
+        "prev": 48,
+        "zscore_252d": null,
+        "regime": "NEUTRAL",
+        "source": "alternative.me",
+        "timestamp": "2026-05-12T22:52:15.641055"
+      },
+      {
+        "code": "STABLECOIN_MCAP",
+        "name": "Stablecoin Total MCap ($B)",
+        "value": 310.11,
+        "prev": null,
+        "zscore_252d": null,
+        "regime": "RISK_ON",
+        "source": "CoinGecko(stablecoins)",
+        "timestamp": "2026-05-12T22:52:15.641055"
+      },
+      {
+        "code": "USDKRW",
+        "name": "USD/KRW Exchange Rate",
+        "value": 1492.23,
+        "prev": 1460.55,
+        "zscore_252d": 1.413168247320029,
+        "regime": "RISK_OFF",
+        "source": "Yahoo(KRW=X)",
+        "timestamp": "2026-05-12T22:52:17.127526"
+      },
+      {
+        "code": "KOSPI_MOMENTUM",
+        "name": "KOSPI vs 200D MA (px=7822, ma=4480)",
+        "value": 74.61,
+        "prev": 67.37,
+        "zscore_252d": 3.0402785958315155,
+        "regime": "RISK_ON",
+        "source": "Yahoo(^KS11)",
+        "timestamp": "2026-05-12T22:52:17.127526"
+      },
+      {
+        "code": "KOSPI_RV20",
+        "name": "KOSPI 20D Realized Vol (%, ann.)",
+        "value": 31.85,
+        "prev": null,
+        "zscore_252d": null,
+        "regime": "RISK_OFF",
+        "source": "Calculated(^KS11)",
+        "timestamp": "2026-05-12T22:52:17.127526"
+      }
+    ]
   }
 ]
